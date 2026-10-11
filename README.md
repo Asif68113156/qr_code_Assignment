@@ -2,6 +2,8 @@
 
 **Course:** Advanced Web Technologies - MCA, PCCoE  |  **Student:** Asifali Siddiqui  |  **PRN:** 125M1H050
 
+**Live Demo:** [https://jocular-blini-66f74b.netlify.app/](https://jocular-blini-66f74b.netlify.app/)
+
 A browser-based QR code scanner built with React. Scan with the live camera or from an uploaded image,
 keep a searchable history, and edit / favourite / delete entries. All decoding happens locally in the browser.
 
@@ -40,6 +42,7 @@ If JSON Server is not running the app shows an "Offline mode" banner and saves h
 | `npm run deploy` | Build and publish `dist/` to GitHub Pages (`gh-pages` branch) |
 
 ## Deployment
+* **Live URL:** [https://jocular-blini-66f74b.netlify.app/](https://jocular-blini-66f74b.netlify.app/)
 * **Vercel / Netlify:** import the repo, build command `npm run build`, output directory `dist`.
   Set `VITE_API_URL` only if you host a JSON Server; otherwise the app uses localStorage.
 * **GitHub Pages:** `npm run deploy` (build uses relative base `./` and `HashRouter`, so no extra config is needed).

@@ -1,0 +1,24 @@
+{
+  "scans": [
+    {
+      "id": "seed-1",
+      "value": "https://react.dev",
+      "type": "url",
+      "source": "manual",
+      "label": "React Docs",
+      "notes": "Sample entry loaded from JSON Server",
+      "favorite": true,
+      "createdAt": "2026-09-20T10:15:00.000Z"
+    },
+    {
+      "id": "seed-2",
+      "value": "WIFI:T:WPA;S:CampusLab;P:pccoe1234;;",
+      "type": "wifi",
+      "source": "manual",
+      "label": "Lab Wi-Fi",
+      "notes": "",
+      "favorite": false,
+      "createdAt": "2026-09-21T09:05:00.000Z"
+    }
+  ]
+}
